@@ -4,7 +4,7 @@ p = 0
 while p != n:
     p = int(input("Seu palpite: "))
     if p == n:
-        print("ACERTOU!!")
+        print("ACERTOU!!!")
     elif p < n:
         print ("Chute um valor maior")
     else:
